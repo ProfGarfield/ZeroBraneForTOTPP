@@ -18,9 +18,11 @@ Download [autocomplete.lua](https://raw.githubusercontent.com/ProfGarfield/ZeroB
 
 Add the configuration file [user.lua](https://raw.githubusercontent.com/ProfGarfield/ZeroBraneForTOTPP/main/cfg/user.lua) to the `cfg` folder: `cfg\user.lua`
 
-## Features
+## Special Features
 
+This fork of ZeroBrane Studio automatically provides syntax highlighting along with tooltips and autocomplete for the functions, methods, and properties of the Test of Time Patch Project implementation of Lua.  In addition to adding the relevant ZeroBrane API for the TOTPP features, the ZeroBrane code has been modified to give tooltips for property calls to TOTPP Lua Objects, and to guess what the base object is by using autocomplete calls.
 
+In addition, whenever you open a project folder, ZeroBrane Studio will look for a file totpp-api.lua in the Scripts folder, and, if it is available, use it to update the syntax highlighting, tooltips, and autocomplete.  If you use my [Lua Scenario Template](https://github.com/ProfGarfield/LuaTemplate), you can run the script makeZeroBraneAPI.lua from the Civ II Lua Console.  This will add all your entries in object.lua to the autocomplete list, as well as add tooltips and syntax highlighting to any documentation I add to the files in the LuaCore.
 
 ## License
 
