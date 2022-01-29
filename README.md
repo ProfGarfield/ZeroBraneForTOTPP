@@ -43,4 +43,4 @@ Changed the lua.lua spec in spec\lua.lua.  The returned table is now first assig
 
 Changed autocomplete.lua in src\editor\autocomplete.lua.  Tooltips now available for "class" and "lib" types in the api.  (Can get tooltip for library prefixes, and for class names.)  Tooltip now shows method with ":" separator instead of ".".  Tooltips now display for class properties/values, at least when the autocomplete would also be able to provide the class.
 
-Added user.lua to cfg\user.lua to add the "totpp" api by default.
+Added user.lua to cfg\user.lua to add the "totpp" api by default. 
