@@ -20,7 +20,7 @@ Add the configuration file [user.lua](https://raw.githubusercontent.com/ProfGarf
 
 ## ZeroBrane Studio Features
 
-ZeroBrane studio provides standard text editor features like line numbering and basic highlighting for Lua.  It also contains a project analyzer which will detect many potential mystakes without having to actually load a Civ II game.  It also allows you to switch between project folders, and remembers what files you had open in each project.  It also provides a Lua Console so you quickly test Lua behaviour (as long as it doesn't involve Test of Time specific features).  
+ZeroBrane studio provides standard text editor features like line numbering and basic highlighting for Lua.  It also contains a project analyzer which will detect many potential mistakes without having to actually load a Civ II game.  It also allows you to switch between project folders, and remembers what files you had open in each project.  It also provides a Lua Console so you quickly test Lua behaviour (as long as it doesn't involve Test of Time specific features).  
 
 ## Special Features For Test of Time Lua
 
